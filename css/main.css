@@ -1,0 +1,85 @@
+   @font-face {
+      font-family: 'Frangklin';
+      src: url("2021mbarron/fonts/Frangklin.ttf") format('truetype');
+      src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    }
+    @font-face {
+      font-family: 'Oldenburg';
+      src: url("2021mbarron/fonts/Oldenburg-Regular.ttf") format('truetype');
+      src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    }
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+     body {
+        background-image: url("/2021mbarron/img/quietCity.jpg");
+         background-attachment: fixed;
+         background-size: cover;
+      }
+    .button {
+        background-color: #FEC601;
+        border: none;
+        color: black;
+        padding: 1% 2%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Oldenburg, Palantino, serif;
+        font-size: 16px;
+        margin: 1% 2%;
+        cursor: pointer;
+    }
+    .b {
+        width:500px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    h1 {
+      font-family: "Frangklin", "Book Antiqua", Palatino, serif;
+      color: #FEC601;
+      font-size: 40px;
+      text-align: center;
+      text-shadow: 1px 1px 2px black;
+    }
+    p {
+      font-family: Oldenburg, "Book Antiqua", Palatino, serif;
+      font-size: 20px;
+    }
+    li {
+      /*font-family: Oldenburg, "Book Antiqua", Palatino, serif;*/
+      font-size: 20px;
+      list-style-type: none;
+    }
+    a {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
